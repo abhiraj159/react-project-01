@@ -1,0 +1,46 @@
+.nav {
+  box-shadow: 0 2px 40px rgba(32, 64, 96, 0.1);
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.menuBar {
+  display: flex;
+}
+.menuBar li {
+  color: #041b67;
+  padding: 4px 10px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+}
+.icustomercare {
+  display: none;
+}
+.downloadSec {
+  display: none;
+}
+.downloadBtn {
+  background-color: #061058 !important;
+  white-space: nowrap;
+  padding: 6px 25px;
+  border-radius: 94px;
+  color: #fff !important;
+  text-transform: uppercase;
+  display: flex;
+}
+@media (min-width: 768px) {
+  .icustomercare {
+    background-image: url(../../assets/customer-care.svg);
+    width: 25px;
+    height: 25px;
+    display: block;
+    background-repeat: no-repeat;
+  }
+  .downloadSec {
+    display: flex;
+  }
+}

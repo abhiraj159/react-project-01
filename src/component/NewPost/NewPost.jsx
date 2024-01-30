@@ -10,13 +10,18 @@ function NewPost(props) {
             id="body"
             required
             rows={3}
-            onChange={props.changeBodyHandler}
+            // onChange={props.changeBodyHandler}
           />
         </p>
-        <p>{enterBody}</p>
+        {/* <p>{enterBody}</p> */}
         <p>
           <label htmlFor="name">Your Name</label>
-          <input type="text" id="text" required onChange={onDetailsChange} />
+          <input
+            type="text"
+            id="text"
+            required
+            // onChange={onDetailsChange}
+          />
         </p>
       </form>
     </>
